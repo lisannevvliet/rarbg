@@ -8,7 +8,7 @@
     "start": "node app.js"
   },
   "author": "",
-  "license": "ISC",
+  "license": "GPL-3.0",
   "type": "module",
   "dependencies": {
     "express": "^4.18.2",
