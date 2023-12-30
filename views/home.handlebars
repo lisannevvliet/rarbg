@@ -1,0 +1,14 @@
+<h1>RARBG</h1>
+<form method="get" action="/">
+    <input type="text" name="q" placeholder="Title or IMDb ID" onclick="this.select()"{{#if form.[0]}} value="{{form.[0]}}"{{/if}} required>
+    <input type="checkbox" id="fhd" name="fhd"{{#if form.[1]}} checked{{/if}}>
+    <label for="fhd">1080p</label>
+    <input type="checkbox" id="hevc" name="hevc"{{#if form.[2]}} checked{{/if}}>
+    <label for="hevc">x265</label>
+    <button type="submit">Search</button>
+</form>
+<ul>
+    {{#each items}}
+        <li><a href="magnet:?xt=urn:btih:{{this.[0]}}&dn={{this.[1]}}">{{this.[1]}}</a> {{this.[2]}} GB</li>
+    {{/each}}
+</ul>

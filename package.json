@@ -1,0 +1,24 @@
+{
+  "name": "rarbg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "sqlite3": "^5.1.7-rc.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "nodemonConfig": {
+    "ext": "js,mjs,cjs,json,handlebars"
+  }
+}
