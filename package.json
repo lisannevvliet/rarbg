@@ -11,7 +11,7 @@
   "license": "GPL-3.0",
   "type": "module",
   "dependencies": {
-    "express": "^4.19.2",
+    "express": "^4.21.0",
     "express-handlebars": "^7.1.2",
     "sqlite3": "^5.1.7-rc.0",
     "tar": "^7.0.1"
